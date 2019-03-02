@@ -1,0 +1,16 @@
+body{
+    height: 100%;
+    margin: 0;
+    background-image: url(\assets\style.css\asanoha-400px.png);
+}
+
+
+.gem-image{
+    height: 200px;
+    width: 200px;
+}
+
+.gem-row{
+    height: 300px;
+    width: 1000px;
+}

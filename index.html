@@ -3,14 +3,47 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Jordyn Zubak About Me</title>
+    <title>Gem Collector Game</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
         crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="/assets/reset.css/reset.css">
-    <link rel="stylesheet" type="text/css" href="/assets/style.css/style.css">
-    <link rel="java" type="text/java" href="/assets/game.js/game.js">
+    <link rel="stylesheet" type="text/css" href="assets/reset.css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/style.css/style.css">
+    
 </head>
 
 <body>
-    
-</body>
+    <h1>Crystal Collector!</h1>
+    <div>
+        <h2>The Rules:</h2>
+        <p>
+            1. Click the "Start Searching" button to being and see how many gems you need to collect
+            <br>
+            2. Click on a gem below to see how many you found on your first go!
+            <br>
+            3. Collect the exact number to win, collect too many gems and you loose!
+        </p>
+    </div>
+    <button id="start">Start Searching</button>
+    <div>
+        <p>You need to collect <span id="target"></span> Gems:</p>
+    </div>
+    <div>
+        <p>Wins: <span id="win"></span></p>
+    </div>
+    <div>
+        <p>Losses:<span id="losses"></span</p>
+    </div>
+    <div class="gem-row">
+    <img class="gem-image" src="assets/images/sapphire gem.jpg" alt="sapphier gem">
+    <img class="gem-image" src="assets/images/emerald gem.jpg" alt="emerald gem">
+    <img  class="gem-image" src="assets/images/orange gem.jpg" alt="orange gem">
+    <img  class="gem-image" src="assets/images/pink gem.jpg" alt="pink gem">
+</div>
+    <div>
+        <p>Current Number of Gems:<div id="Collected"></div></p>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+  <script type="text/javascript" src="assets/game.js/game.js"></script>
+  </body>
