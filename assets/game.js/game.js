@@ -20,6 +20,7 @@ for (var i = 0; i < gemsCollected.length; i++) {
     $("#start").on("click", function () {
         targetnumber = Math.floor(19 + Math.random() * (120 + 1 - 19));
         $("#target").text(targetnumber);
+        counter = 0;
     });
 
 
@@ -31,14 +32,14 @@ $(".gem-image").on("click", function () {
     console.log(gemsCollected);
 
     if (counter === targetnumber) {
-        alert("You win!");
+        alert("Winner Winner Chiceken Dinner!");
         wins++
         $("#win").text(wins);
         // play()
         }
 
     else if (counter >= targetnumber) {
-        alert("You lose!!");
+        alert("Womp womp, you're a loser!!");
         loss++;
         $("#losses").text(loss);
         // play();
