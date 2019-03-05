@@ -8,14 +8,19 @@
         crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="assets/reset.css/reset.css">
     <link rel="stylesheet" type="text/css" href="assets/style.css/style.css">
-    
+
 </head>
 
 <body>
-    <h1>Crystal Collector!</h1>
-    <div>
+<br><br><br>
+    <h1 class="d-flex justify-content-center">Crystal Collector!</h1>
+    <br><br>
+    <div class="d-flex justify-content-center">
         <h2>The Rules:</h2>
-        <p>
+    </div>
+    <div></div>
+    <div class="d-flex justify-content-center words">
+        <p class="d-flex align-content-center words">
             1. Click the "Start Searching" button to being and see how many gems you need to collect
             <br>
             2. Click on a gem below to see how many you found on your first go!
@@ -23,27 +28,33 @@
             3. Collect the exact number to win, collect too many gems and you loose!
         </p>
     </div>
-    <button id="start">Start Searching</button>
-    <div>
-        <p>You need to collect <span id="target"></span> Gems:</p>
+    <br><br><br>
+    <div class="d-flex justify-content-center"> 
+            <button id="start" class="btn btn-info button">Start Searching</button>
     </div>
-    <div>
-        <p>Wins: <span id="win"></span></p>
+    <br><br><br>
+    <div class="d-flex justify-content-center words">
+        <p>You need to collect <span class="words" id="target" class="goal"></span> gems</p>
     </div>
-    <div>
-        <p>Losses:<span id="losses"></span</p>
+    <br><br>
+    <div class="words">
+        <div class="d-flex justify-content-center"><p>Wins: <span id="win"></span></p></div>
+        <br><br>
+    <div class="d-flex justify-content-center"><p>Losses:<span id="losses"></span</p></div>
     </div>
-    <div class="gem-row">
-    <img class="gem-image" src="assets/images/sapphire gem.jpg" alt="sapphier gem">
-    <img class="gem-image" src="assets/images/emerald gem.jpg" alt="emerald gem">
-    <img  class="gem-image" src="assets/images/orange gem.jpg" alt="orange gem">
-    <img  class="gem-image" src="assets/images/pink gem.jpg" alt="pink gem">
-</div>
-    <div>
-        <p>Current Number of Gems:<div id="Collected"></div></p>
+    <br><br>
+    <div class="gem-row d-flex justify-content-center">
+                <img class="gem-image" src="assets/images/sapphiregem.png" alt="sapphier gem">
+                <img class="gem-image" src="assets/images/emeraldgem.png" alt="emerald gem">
+                <img class="gem-image" src="assets/images/orangegem.png" alt="orange gem">
+                <img class="gem-image" src="assets/images/pinkgem.png" alt="pink gem">
     </div>
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
-  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-  crossorigin="anonymous"></script>
-  <script type="text/javascript" src="assets/game.js/game.js"></script>
-  </body>
+    <br><br>
+    <div class="d-flex justify-content-center words">
+        <p>Current Number of Gems:<div id="Collected"></div>
+        </p>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <script type="text/javascript" src="assets/game.js/game.js"></script>
+</body>
