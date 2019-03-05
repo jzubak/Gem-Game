@@ -17,27 +17,27 @@ body{
     padding: 0;
 }
 
-.goal{
+/* .goal{
     font-family: fantasy;
     font-size: 18pt;
-}
+} */
 button{
     border: none;
 }
 
 h1{
-    font-family: fantasy;
+    font-family: 'Bungee Shade', cursive;
     font-size: 30pt;
     
 }
 
 h2{
-    font-family: fantasy;
+    font-family: 'Quattrocento Sans', sans-serif;
     font-size: 25pt;
     
 }
 
 .words{
     font-size: 18pt;
-    font-family: fantasy; 
+    font-family: 'Quattrocento Sans', sans-serif;
 }
