@@ -20,8 +20,8 @@ $("#start").on("click", function () {
     targetnumber = Math.floor(19 + Math.random() * (120 + 1 - 19));
     $("#target").text(targetnumber);
     counter = 0;
-    console.log(targetnumber)
-});
+    $("#Collected").text(counter);
+    });
 
 
 $(".gem-image").on("click", function () {
